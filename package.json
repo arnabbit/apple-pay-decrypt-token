@@ -1,0 +1,31 @@
+{
+  "name": "apple-pay-decrypt-token",
+  "version": "1.0.0",
+  "description": "A node app to handle apple pay payment token signature validation and decryption using node:crypto",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arnabbit/apple-pay-decrypt-token.git"
+  },
+  "keywords": [
+    "apple-pay",
+    "node",
+    "javascript"
+  ],
+  "author": "Arnab Bit",
+  "license": "MIT",
+  "dependencies": {
+    "@fidm/x509": "^1.2.1",
+    "asn1js": "^2.0.26",
+    "crypto": "^1.0.1",
+    "ec-key": "0.0.4",
+    "pkijs": "^2.1.88"
+  },
+  "bugs": {
+    "url": "https://github.com/arnabbit/apple-pay-decrypt-token/issues"
+  },
+  "homepage": "https://github.com/arnabbit/apple-pay-decrypt-token#readme"
+}
