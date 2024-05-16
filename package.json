@@ -1,6 +1,6 @@
 {
   "name": "apple-pay-decrypt-token",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A node app to handle apple pay payment token signature validation and decryption using node:crypto",
   "main": "index.js",
   "scripts": {
@@ -20,7 +20,6 @@
   "dependencies": {
     "@fidm/x509": "^1.2.1",
     "asn1js": "^2.0.26",
-    "crypto": "^1.0.1",
     "ec-key": "0.0.4",
     "pkijs": "^2.1.88"
   },

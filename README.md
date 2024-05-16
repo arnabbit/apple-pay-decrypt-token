@@ -2,7 +2,9 @@
 
 A node app to handle apple pay payment token signature validation and decryption
 
-The code follows the standards ref: [Payment Token Format Reference](https://developer.apple.com/documentation/passkit_apple_pay_and_wallet/apple_pay/payment_token_format_reference)
+The code follows the standards [Payment Token Format Reference](https://developer.apple.com/documentation/passkit_apple_pay_and_wallet/apple_pay/payment_token_format_reference)
+
+This package is a fork of apple-pay-token-decrypt, but instead of using the deprecated node-webcrypt-ossl, we use the inbuilt node:crypto package
 
 ## Getting started  
 for npm users
